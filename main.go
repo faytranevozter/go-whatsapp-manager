@@ -11,7 +11,7 @@ import (
 	"github.com/gin-gonic/gin"
 )
 
-var fPort = flag.String("port", "8080", "which port will be used")
+var fPort = flag.String("port", "3001", "which port will be used")
 var port string
 
 var fApiHost = flag.String("api", "http://localhost:3000", "base url whatsapp api")
